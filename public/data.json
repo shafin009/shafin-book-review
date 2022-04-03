@@ -1,0 +1,58 @@
+[
+    {
+        "id": "623rad653de6",
+        "Ratings": "4.0 ⭐⭐⭐⭐",
+        "blog": "This book puts me in mind of the story about how a Harvard number theorist, through some malfunction of the scheduling computer, got assigned to teach an introductory course in pre-calculus. Being one of those individuals to whom math came so easily that they couldn't grasp how difficult others found it, the professor had no idea what to cover in such a course.",
+        "picture": "https://ichef.bbci.co.uk/news/976/cpsprodpb/125B3/production/_107178157_178151.jpg",
+        "name": "Mark Zuckerberg"
+    },
+    {
+        "id": "1e185a8bdb8",
+        "Ratings": "5.0 ⭐⭐⭐⭐⭐",
+        "blog": "It is not clear to me who is in the target audience for this book. At times it tries to explain basic concepts of modern physics in simple language, and at other times it assumes a familiarity with the same subject. For the first time I think I 'understand' why absolute time is not consistent with relativity theory or that space-time curvature supplants the notion of gravity, and for that I thank the author. There are a few other things I believe I have a glimpse of having (finally) slogged through the book.",
+        "picture": "https://cdn.britannica.com/47/188747-050-1D34E743/Bill-Gates-2011.jpg",
+        "name": "Bill Gates"
+    },
+    {
+        "id": "e7eae51e1b8",
+        "Ratings": "5.0 ⭐⭐⭐⭐⭐",
+        "blog": "A Brief History of Time: From the Big Bang to Black Holes is a popular-science book on cosmology (the study of the universe) by British physicist Stephen Hawking. It was first published in 1988. Hawking wrote the book for nonspecialist readers with no prior knowledge of scientific theories.In A Brief History of Time, Stephen Hawking attempts to explain a range of subjects in cosmology, including the Big Bang, black holes and light cones, to the non-specialist reader.His main goal is to give an overview of the subject, but he also attempts to explain some complex mathematic",
+        "picture": "https://i.insider.com/623f6483093c4d00180524ef?width=700",
+        "name": "Elon Musk"
+    },
+    {
+        "id": "db87eae",
+        "Ratings": "3.0 ⭐⭐⭐",
+        "blog": "Manny says this book is in the 'bought but not read' category for most people. Well, I'm proud to say that I bought and read it, that too in nearly one sitting - back in my geeky days, when I used to get a sexual high just from solving a hard maths puzzle.",
+        "picture": "https://image.cnbcfm.com/api/v1/image/104225995-_95A5004.jpg?v=1540458420",
+        "name": "Jack Ma"
+    },
+    {
+        "id": "bdb87eawrtr",
+        "Ratings": "5.0 ⭐⭐⭐⭐⭐",
+        "blog": "The main idea to take away from this book is that time has a clear direction. Entropy is the idea that the universe moves from highly ordered states to less ordered states. If you take the lid off a bottle of perfume, and leave it off for a few days the perfume will go from being highly ordered (all in the bottle) to highly disordered (all over the room).",
+        "picture": "https://yt3.ggpht.com/ytc/AKedOLTBLMf4tq8iRjYjbmOPzLlQbD31_D2E4AOSmFPGzw=s900-c-k-c0x00ffffff-no-rj",
+        "name": "Jhankar Mahbub"
+    },
+    {
+        "id": "e7eae51e623de6b",
+        "Ratings": "4.5 ⭐⭐⭐⭐",
+        "blog": "Theoretical Physics from the master himself. It's a great summary, but you need a little background knowledge to understand all the chapters. It's a summary of astrophysics, theoretical physics, and cosmology, and it's hard grasping it all in 200 some pages. I wish it was a little longer.",
+        "picture": "https://www.tbsnews.net/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/images/2019/06/29/dr_yunus-new.jpg?itok=LhZiQSFM",
+        "name": "Muhammad Yunus"
+    },
+    {
+        "id": "623de6be7623de6b",
+        "Ratings": "4.0 ⭐⭐⭐⭐",
+        "blog": "Only Hawking could write this book - simple, to the point and extremely resourceful. Cosmology is not an easy subject neither can everyone understand its deep connotations. Hawking made it understandable in the most layman terms possible.",
+        "picture": "https://i.insider.com/5b748ea80ce5f519008b55fa?width=700",
+        "name": "Larry Page"
+    },
+    {
+        "id": "623dedb",
+        "Ratings": "3.5 ⭐⭐⭐",
+        "blog": "Stephen Hawking's book is easy to read, but harder to comprehend. In every chapter came a point where my brain couldn't hold another permutation of a theory, and as the book progressed, I ended up taking the same approach as I do when reading a Norse saga for the first time. With sagas, I just read, even if my brain doesn't seem to retain all the information about who is related to who and what they named their horse. Inevitably, at the end, I have a reasonable basic grasp of the saga, and then I have to read it over again to fit more information into that basic understanding.",
+        "picture": "https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg",
+        "name": "Barack Obama"
+    }
+]
