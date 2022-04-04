@@ -48,7 +48,7 @@ const Dashboard = () => {
 
     return (
         <div className='py-14 flex justify-center'>
-            <div className='grid md:grid-cols-2 gap-6 '>
+            <div className='grid md:grid-cols-2 gap-4 '>
 
                 <div>
                     <h1 className='text-center text-xl font-serif underline text-stone-700'>Monthly Sells</h1>
