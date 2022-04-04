@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const NotFound = () => {
@@ -15,17 +16,16 @@ const NotFound = () => {
           <p className='mb-5 text-base text-left text-gray-800 md:text-xl'>
             You might have the wrong address, or the page may have moved.
           </p>
-          <button className='w-full mb-2 py-2 px-3 text-white mt-3 bg-cyan-600 sm:w-auto sm:mb-0'>
-            Back to homepage
-          </button>
-          <button className='w-full mb-2 py-2 px-3 text-white mt-3 mx-2 bg-cyan-600 sm:w-auto sm:mb-0'>
-            Contact us
-          </button>
+          <Link to='/' className='w-full mb-2 py-2 px-3 text-white mt-3 bg-rose-600 sm:w-auto sm:mb-0'>
+            Back to Homepage
+
+          </Link>
+
         </div>
         <div>
           <div className='w-full h-full bg-gray-200 rounded-lg'>
             <img
-              src='https://thumbs.dreamstime.com/b/%C3%B0%C2%BF%C3%B0%C2%B5%C3%B1%E2%80%A1%C3%B0%C2%B0%C3%B1%E2%80%9A%C3%B1%C5%93-134036857.jpg'
+              src='https://www.inzonedesign.com/wp-content/uploads/2021/02/blog-cleverly-funny-creative-404-error-pages-coolappse.jpg'
               alt=''
             />
           </div>

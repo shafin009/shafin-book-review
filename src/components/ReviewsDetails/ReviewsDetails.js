@@ -11,11 +11,11 @@ const ReviewsDetails = (props) => {
                 <img src={picture} className="card-img-top rounded-3 w-auto h-50 p-3" alt="..." />
                 <div className="card-body">
 
-                    <p className="card-text">Blog: {blog}</p>
+                    <p className="card-text"><span className="fw-bold">Review:</span> {blog}</p>
                     <hr />
                     <br />
-                    <h5 className="card-title">Name: {name}</h5>
-                    <p className="card-text">Ratings: {Ratings}</p>
+                    <h5 className="card-title"><span className="fw-bold">Reviewed By:</span> {name}</h5>
+                    <p className="card-text"><span className="fw-bold">Ratings:</span> {Ratings}</p>
 
                 </div>
             </div>
