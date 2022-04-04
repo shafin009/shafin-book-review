@@ -1,16 +1,11 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
+
+import useReviews from '../../Hooks/useReviews';
 import ReviewsDetails from "../ReviewsDetails/ReviewsDetails"
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([])
+    const [reviews, setReviews] = useReviews();
 
-    useEffect(() => {
-        fetch('data.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-
-    }, [])
 
 
     return (

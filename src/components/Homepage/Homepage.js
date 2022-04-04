@@ -1,20 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import pic from './review.jpg'
-import { useEffect, useState } from 'react';
 import HomeReview from '../HomeReview/HomeReview'
+import useReviews from '../../Hooks/useReviews';
 
 
 const Homepage = () => {
 
-  const [reviews, setReviews] = useState([])
+  const [reviews, setReviews] = useReviews();
 
-  useEffect(() => {
-    fetch('data.json')
-      .then(res => res.json())
-      .then(data => setReviews(data))
-
-  }, [])
 
 
   return (
@@ -26,7 +20,7 @@ const Homepage = () => {
           <p>Written by Tanvir Rahman</p>
         </div>
         <div >
-          <img className='w-fit h-96 items-center ml-5' src={pic} alt="" />
+          <img className='w-fit h-96 items-center mr-5' src={pic} alt="" />
         </div>
       </div>
       <br />
@@ -34,18 +28,15 @@ const Homepage = () => {
       <br />
       <div className='container d-flex justify-content-between'>
         <div className='row row-cols-1 row-cols-md-3 g-4'>
-
           {
-            reviews.slice(3, 6).map((review) => (
-              <HomeReview
+            reviews.slice(3, 6).map(review => <HomeReview
+              key={review.id}
+              review={review}
 
-                key={review.id}
-                review={review}
-              ></HomeReview>
-            ))}
+            ></HomeReview>)
+          }
 
         </div>
-
       </div>
       <br />
       <br />
@@ -59,4 +50,4 @@ const Homepage = () => {
   );
 }
 
-export default Homepage
+export default Homepage;

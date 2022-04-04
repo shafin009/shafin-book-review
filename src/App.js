@@ -21,10 +21,8 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="*" element={<NotFound />} />
-
-
       </Routes>
-    </div >
+    </div>
   );
 }
 
