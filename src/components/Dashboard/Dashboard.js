@@ -47,7 +47,7 @@ const data = [
 const Dashboard = () => {
 
     return (
-        <div className='py-14 flex justify-center'>
+        <div className='overflow-hidden py-14 flex justify-center'>
             <div className='grid md:grid-cols-2 gap-4 '>
 
                 <div>
