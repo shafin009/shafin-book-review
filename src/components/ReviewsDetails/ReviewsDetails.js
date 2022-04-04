@@ -10,7 +10,7 @@ const ReviewsDetails = ({ review }) => {
             <div className="card h-100">
                 <img src={review.picture} className="card-img-top rounded-3 w-auto h-50 p-3" alt="..." />
                 <div className="card-body">
-
+ 
                     <p className="card-text">Blog: {review.blog}</p>
                     <hr />
                     <br />
