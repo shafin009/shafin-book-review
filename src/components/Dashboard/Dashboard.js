@@ -47,34 +47,34 @@ const data = [
 const Dashboard = () => {
 
     return (
-        <div className='container'>
-            <div className='grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2'>
+        <div className='py-14 flex justify-center'>
+            <div className='grid md:grid-cols-2 gap-6 '>
 
-                <div className='col'>
+                <div>
                     <h1 className='text-center text-xl font-serif underline text-stone-700'>Monthly Sells</h1>
-                    <ResponsiveContainer width="95%" height={400}>
 
-                        <PieChart width={500} height={400}>
-                            <Pie
-                                dataKey="sell"
-                                isAnimationActive={false}
-                                data={data}
-                                cx={200}
-                                cy={200}
-                                outerRadius={80}
-                                fill="#800080"
-                                label
-                            />
-                            <Tooltip />
-                        </PieChart>
-                    </ResponsiveContainer>
+
+                    <PieChart width={400} height={300}>
+                        <Pie
+                            dataKey="sell"
+                            isAnimationActive={false}
+                            data={data}
+                            cx={200}
+                            cy={200}
+                            outerRadius={80}
+                            fill="#800080"
+                            label
+                        />
+                        <Tooltip />
+                    </PieChart>
+
                 </div>
 
-                <div className='col'>
+                <div>
                     <h1 className='text-center text-xl font-serif underline text-stone-700'>Monthly Revenues</h1>
                     <ResponsiveContainer width="95%" height={400}>
                         <BarChart
-                            width={600}
+                            width={400}
                             height={300}
                             data={data}
                             margin={{
@@ -95,12 +95,12 @@ const Dashboard = () => {
                     </ResponsiveContainer>
                 </div>
 
-                <div className='col'>
+                <div>
                     <h1 className='text-center text-xl font-serif underline text-stone-700'>Total Chart</h1>
                     <ResponsiveContainer width="95%" height={400}>
 
                         <BarChart
-                            width={500}
+                            width={400}
                             height={300}
                             data={data}
                             margin={{
@@ -122,12 +122,12 @@ const Dashboard = () => {
                     </ResponsiveContainer>
                 </div>
 
-                <div className='col'>
+                <div>
                     <h1 className='text-center text-xl font-serif underline text-stone-700'>Sells and Investments Charts</h1>
                     <ResponsiveContainer width="95%" height={400}>
 
                         <LineChart
-                            width={500}
+                            width={400}
                             height={300}
                             data={data}
                             margin={{
