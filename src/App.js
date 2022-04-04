@@ -8,9 +8,6 @@ import Reviews from "./components/Reviews/Reviews"
 import Blogs from "./components/Blogs/Blogs"
 
 
-
-
-
 function App() {
   return (
     <div>
